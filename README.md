@@ -1,5 +1,8 @@
 # Book Notes
-This website allows user to add, update, delete books to the application. It saves the books to PostgreSQL database. Open Library API is used to fetch Book Cover Image based on ISBN.
+This website allows user to add, update, delete books . It saves the book details to PostgreSQL database. Open Library API is used to fetch Book Cover Image based on ISBN of books.
+![image](https://github.com/Khushisrivastava202/Book-Notes/assets/82716033/8cabfb4d-adcc-49a2-ab5f-d372a4915713)
+![image](https://github.com/Khushisrivastava202/Book-Notes/assets/82716033/7c5bcd1a-3521-4637-bb59-e3b8099c50e5)
+
 
 
 # Prerequisites
@@ -14,15 +17,8 @@ This website allows user to add, update, delete books to the application. It sav
 * Saves to PostgreSQL.
 * Open Library API used.
 
-# Development
-* Fork this repository to your GitHub account.
-* Clone your forked repository to your local machine.
-* Make changes to the code as needed.
-* Commit your changes and push them to your forked repository.
-* Create a pull request to merge your changes into the upstream repository.
-
 # Installation
-* Clone the repository.
+* Clone the repository https://github.com/Khushisrivastava202/Book-Notes.git
 * Install the required dependencies using "npm i".
 * Create the necessary tables in your PostgreSQL database. You can copy the SQL queries from the queries.sql file and execute them in your database management tool.
 * Configure the database connection settings in the dbConfig object in the index.js file. Replace the placeholder values with your database credentials.
@@ -37,7 +33,6 @@ This website allows user to add, update, delete books to the application. It sav
 * Create a new branch for your contribution.
 * Make your changes, commit them, and push to your forked repository.
 * Create a pull request (PR) to the main repository. Provide a descriptive title and details about your changes.
-* Your PR will be reviewed, and once approved, it will be merged into the main project.
 
 Thank You!
 
